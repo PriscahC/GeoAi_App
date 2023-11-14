@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    background-color: rgba(1, 1, 1, .7);   
+    height: 100vh;
+    width: 100vw;   
+}
+.box{
+    height: 100%;
+    width: 100%;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+.overlay{
+    background-color: rgba(13, 23, 30, 0.7);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.content{
+    width: 80%;
+    margin: 0, auto;
+    text-align: center;
+}
+h1 {
+    font-size: 4rem;
+    color: rgb(20, 119, 232);
+    text-align: center;
+    animation: titleAnimation 1.5s ease-in 2 alternate;
+}
+
+@keyframes titleAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+.button{
+    margin: 2em;
+    padding: 0.5em 2em;
+    color: white;
+    border: solid 3px rgb(20, 119, 232);
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100px;
+    float: right;
+}
+.button:hover{
+    background-color: rgb(20, 119, 232);
+}

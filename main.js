@@ -25,7 +25,7 @@ cities.forEach((city) => {
         // function that fetches and displays weather API data
         fetchWeatherData();
         // animation to fade out the app
-        app.style.opacity = "0";
+        // app.style.opacity = "0";
     });
 });
 
