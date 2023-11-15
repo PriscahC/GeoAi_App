@@ -1,19 +1,7 @@
-# GeoAi_App
-AI solution for climate change health challenges
-
-## Docker
-install docker
-create docker file and edit
-ensure package.json exists
-docker build -t my-web-app .
-
-Certainly! Below is a sample README file for your GeoAI application. Feel free to customize it further based on your specific details and requirements.
-
----
-
 # GeoAI Application
+Climate and health insights platform.
 
-![GeoAI Logo](/path/to/geoai-logo.png)
+![GeoAI Logo](/images/logo-color.png)
 
 ## Overview
 
@@ -42,11 +30,11 @@ The weather forecast feature provides users with up-to-date weather information,
 
 ### 3. WhatsApp Bot
 
-GeoAI includes a WhatsApp chatbot that users can engage with for instant information and assistance. While the bot is not embedded directly on the site, a link is provided for users to initiate a conversation on their mobile devices.
+GeoAI includes a WhatsApp chatbot that users can engage with for instant information and assistance. The bot is integrated with Twilio and users can initiate a conversation on their mobile devices.
 
 #### How to Chat with the WhatsApp Bot:
 
-- Click on the "Chat with GeoAI Bot" link on the GeoAI website.
+- Scan the QR code on the GeoAI website.
 - Open the link on your mobile device to start a conversation with the WhatsApp chatbot.
 
 ## Installation
@@ -60,17 +48,14 @@ The GeoAI application is a web-based platform and does not require any installat
 
 ## Contributing
 
-We welcome contributions from the community to enhance the features and capabilities of GeoAI. If you're interested in contributing, please follow our [Contribution Guidelines](CONTRIBUTING.md).
+We welcome contributions from the community to enhance the features and capabilities of GeoAI. 
 
 ## Support
 
-For any issues, questions, or feedback, please reach out to our support team at support@geoai.com.
+For any issues, questions, or feedback, please reach out to the [team](opiyopriscah4@gmail.com).
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-Feel free to replace placeholder text, filenames, and paths with your actual details. Additionally, consider adding more details about the technologies used, development environment setup, and any other relevant information for users and contributors.
-

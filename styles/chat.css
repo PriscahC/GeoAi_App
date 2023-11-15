@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: fit-content;
+}
+.container{
+    /* padding: 1px; */
+    background-color: rgba(1, 1, 1, .7);   
+    height: 100vh;
+    width: 100vw;
+    position: relative; 
+}
+.box{
+    height: 100%;
+    width: 100%;
+    
+    /* filter: blur(5px); */
+}
+.overlay{
+    background-color: rgba(1, 1, 1, .7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.box img{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.contents{
+    width: 92%;
+    /* max-width: 80vw; */
+    margin: 0, auto;
+    text-align: center;
+    background-color: rgba(255,255, 255, .3);
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* grid-template-columns: auto auto auto; */
+    border-radius: 20px;
+    /* padding: 2em; */
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.items{
+    background-color: rgba(10, 9, 9, 0.7);
+    height: 500px;
+    overflow: hidden;
+    width: 20em;
+    margin: 10px;
+    object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+    .contents {
+        width: 100%;
+        /* height: 100vh; */
+        display: block;
+    }
+    .items{
+        width: 80%;
+        height: 200px;
+        font-size: 10px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+    .two{
+        /* height:500px; */
+    }
+
+    /* .items {
+        width: 100%;
+        padding: 10px;
+    }
+    .one{
+        height: 350px;
+        position: relative;
+    }
+    .two   {
+        position: relative;
+    } */
+}
+
+button{
+    margin-top: 1em;
+    padding: 10px 20px;
+    background-color: rgb(1, 1, 40);
+    color: white;
+    height: 35px;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 1em;
+}
+button:hover{
+    background-color: rgba(1, 1, 40, .3);
+    color: white;
+    font-weight: 700;
+}
+/* label{
+    display: block;
+    margin: 1.5em;
+    text-align: left;
+} */
+input{
+    background-color: rgba(1, 1, 1, .7);
+    height: 35px;
+    width: 100%;
+    margin: 5px;
+    color: white;
+    font-size: 1em;
+}
+.qr{
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    /* object-fit: contain; */
+}
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#contacts{
+    background-color: black;
+   
+
+}
