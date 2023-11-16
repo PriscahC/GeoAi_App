@@ -1,0 +1,38 @@
+/* chart styling */
+#chart {
+    width: 100%; 
+    background-color: red;
+}
+li{
+    display: flex; 
+    position: absolute; 
+    top: 10; 
+    left: 10;
+}
+
+    
+/* responsiveness */
+@media only screen and (max-width: 600px) {
+
+    .container{
+        width: 100%;
+        max-width: 350px;
+        overflow: scroll;
+    }
+    #chart {
+        width: 150%; 
+        height: 100%;
+    }
+    #plotly-graph{
+        width: 200%;
+    }
+    li{
+        position: relative;
+        background-color: rgba(134, 127, 127, 0.7);
+    }
+}
+
+a{
+    text-decoration: none;
+    color: rgb(8, 56, 98);
+}
