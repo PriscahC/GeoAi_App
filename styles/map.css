@@ -9,7 +9,15 @@ li{
     top: 10; 
     left: 10;
 }
+.box   {
+    display: flex;
 
+}
+.container{
+    width: 100%;
+    max-width: 700px;
+    overflow-x: scroll;
+}
     
 /* responsiveness */
 @media only screen and (max-width: 600px) {
@@ -29,6 +37,10 @@ li{
     li{
         position: relative;
         background-color: rgba(134, 127, 127, 0.7);
+    }
+    .box   {
+        display: block;
+    
     }
 }
 
